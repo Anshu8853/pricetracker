@@ -34,6 +34,7 @@ Your code is now on GitHub! Deploy it in 20 minutes:
 **👉 [Follow DEPLOYMENT_STEPS.md](DEPLOYMENT_STEPS.md) for step-by-step deployment guide**
 
 ### Deployment Platforms (All FREE):
+
 - **Database:** MongoDB Atlas
 - **Backend:** Render.com
 - **Frontend:** Vercel
