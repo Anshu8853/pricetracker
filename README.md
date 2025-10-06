@@ -1,19 +1,46 @@
 # 🛍️ E-commerce Price Tracker
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Anshu8853%2Fpricetracker-blue?logo=github)](https://github.com/Anshu8853/pricetracker)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-14%2B-green?logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)](https://www.mongodb.com/cloud/atlas)
+
+> **🚀 LIVE DEMO:** [Coming Soon - Deploy Now!](DEPLOYMENT_STEPS.md)
+
 A full-stack web application that tracks product prices across e-commerce platforms (Amazon & Flipkart) and sends real-time price drop alerts to users.
+
+**📦 Repository:** https://github.com/Anshu8853/pricetracker
+
+---
 
 ## ✨ Features
 
-- 🔍 **Product Tracking**: Track products from Amazon and Flipkart
+- 🔍 **Product Tracking**: Track products from Amazon India and Flipkart
 - 💰 **Price Alerts**: Set custom price thresholds and get notified when prices drop
-- 📊 **Price History**: View historical price trends with charts
+- 📊 **Price History**: View historical price trends with interactive charts
 - 🔐 **User Authentication**: Secure JWT-based authentication
 - 📧 **Email Notifications**: Instant email alerts for price drops
 - 🎯 **Personalized Wishlist**: Manage your favorite products
 - ⏰ **Automated Scraping**: Scheduled price updates every 6 hours
 - 📱 **Responsive UI**: Works on desktop and mobile devices
 
-## 🛠️ Tech Stack
+---
+
+## � Quick Deploy
+
+Your code is now on GitHub! Deploy it in 20 minutes:
+
+**👉 [Follow DEPLOYMENT_STEPS.md](DEPLOYMENT_STEPS.md) for step-by-step deployment guide**
+
+### Deployment Platforms (All FREE):
+- **Database:** MongoDB Atlas
+- **Backend:** Render.com
+- **Frontend:** Vercel
+
+---
+
+## �🛠️ Tech Stack
 
 ### Backend
 
@@ -24,9 +51,9 @@ A full-stack web application that tracks product prices across e-commerce platfo
 - **Nodemailer**: Email notifications
 - **Node-Cron**: Scheduled tasks for price monitoring
 
-### Frontend (Coming Soon)
+### Frontend
 
-- **React**: User interface
+- **React 18**: User interface
 - **React Router**: Navigation
 - **Axios**: API calls
 - **Chart.js**: Price history visualization
