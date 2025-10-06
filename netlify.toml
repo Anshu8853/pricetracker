@@ -1,0 +1,15 @@
+# Deploy to Netlify
+[build]
+command = "cd client && npm install && npm run build"
+publish = "client/build"
+
+[build.environment]
+NODE_VERSION = "14"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+# Environment variables (set in Netlify dashboard)
+# REACT_APP_API_URL = https://your-backend-url.onrender.com/api

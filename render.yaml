@@ -1,0 +1,20 @@
+# Deployment Configuration for Render.com
+
+# Build Command
+build: npm install
+
+# Start Command
+start: npm start
+
+# Environment
+environment: node
+
+# Health Check
+healthCheckPath: /api/health
+
+# Auto-Deploy
+autoDeploy: true
+
+# Region (choose closest to your users)
+# Available: oregon, frankfurt, singapore, etc.
+region: oregon
